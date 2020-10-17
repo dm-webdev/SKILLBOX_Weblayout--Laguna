@@ -1,0 +1,121 @@
+.accomodation {
+  margin-bottom: 48px;
+}
+
+.accomodation-heading {
+  padding: 0 42px;
+  margin-bottom: 26px;
+}
+
+.accomodations-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.accomodations-container-item:not(:nth-child(3n)) {
+  margin-right: 21px;
+}
+
+.accomodations-container-item {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  margin-bottom: 25px;
+  padding-bottom: 42px;
+  border-radius: 12px;
+  width: 32.1%;
+
+  background-color: #fff;
+}
+
+.accomodation-img {
+  margin-bottom: 31px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.accomodation-price {
+  align-self: stretch;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+  padding: 0 43px 0 45px;
+}
+
+.indent {
+  margin: 0;
+  padding: 0 45px;
+
+  font-size: 16px;
+}
+
+.indent-text {
+  margin-top: 0;
+  margin-bottom: 11px;
+  padding: 0 45px;
+}
+
+.accomodation-btn {
+  display: block;
+  margin: 0 45px auto 45px;
+  padding: 4px 19px;
+  border: 1px solid #cc9933;
+  border-radius: 12px;
+
+  font-weight: 700;
+  color: #cc9933;
+
+  background-color: #fff;
+  user-select: none;
+}
+
+.accomodation-all-img {
+  padding: 363px 15px 15px 38px;
+  position: relative;
+  border-radius: 12px;
+
+  background-color: #333333;
+  background-image: url('../img/all-options.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.accomodation-all-link {
+  position: relative;
+  padding-right: 23px;
+
+  font-size: 22px;
+  color: #fff;
+}
+
+.accomodation-all-link::before {
+  content: '';
+  position: absolute;
+  bottom: -45px;
+  left: -38px;
+  width: 375px;
+  height: 440px;
+}
+
+.accomodation-all-link::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 9px;
+  width: 15px;
+  height: 15px;
+
+  background-image: url('../img/arrow-white.png');
+  background-repeat: no-repeat;
+  background-position: center right;
+
+  transition: transform linear 0.3s;
+}
+
+.accomodation-all-link:hover.accomodation-all-link::after {
+  transform: translateX(20px);
+}
+
+.stars {
+  margin-left: auto;
+}

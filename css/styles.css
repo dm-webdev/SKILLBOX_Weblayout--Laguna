@@ -1,0 +1,163 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Muller', 'Arial', 'Helvetica', 'sans-serif';
+  font-size: 16px;
+  line-height: 32px;
+
+  background-color: #f1f1f1;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  margin: -1px;
+  width: 1px;
+  height: 1px;
+}
+
+.btn {
+  border: 1px solid #cc9933;
+  border-radius: 12px;
+
+  font-weight: 700;
+  word-break: break-all;
+  user-select: none;
+  cursor: pointer;
+}
+
+.heading {
+  margin: 0;
+
+  font-size: 40px;
+  font-weight: 500;
+  color: #333333;
+}
+
+.inline {
+  display: inline;
+}
+
+.border-white {
+  border: 1px solid #fff;
+  border-radius: 12px;
+
+  background-color: #fff;
+}
+
+.text-black {
+  color: #333333;
+}
+
+.text-dark-grey {
+  color: #999999;
+}
+
+.text-grey {
+  color: #666666;
+}
+
+.text-lite-grey {
+  margin: 0;
+
+  color: #969696;
+}
+
+.text-xl-black {
+  margin: 0;
+
+  font-size: 22px;
+  font-weight: 700;
+  color: #333333;
+}
+
+.text-gold {
+  color: #cc9933;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.block {
+  display: block;
+}
+
+.hover-gold {
+  transition: text-shadow ease-in-out 0.2s;
+}
+
+.hover-gold:hover {
+  text-shadow: 0 0 10px #cc9933;
+}
+
+.hover-dark-grey {
+  transition: text-shadow ease-in-out 0.2s;
+}
+
+.hover-dark-grey:hover {
+  text-shadow: 0 0 10px #333333;
+}
+
+.hover-white {
+  transition: text-shadow ease-in-out 0.2s;
+}
+
+.hover-white:hover {
+  text-shadow: 0 0 10px #ffffff;
+}
+
+.shadow-white {
+  transition: filter ease-in-out 0.2s;
+}
+
+.shadow-white:hover {
+  filter: drop-shadow(0 0 10px #ffffff);
+}
+
+.shadow-dark {
+  transition: filter ease-in-out 0.2s;
+}
+
+.shadow-dark:hover {
+  filter: drop-shadow(0 0 10px #333333);
+}
+
+.scale {
+  transition: transform linear 0.2s;
+}
+
+.scale:hover {
+  transform: scale(1.2);
+}

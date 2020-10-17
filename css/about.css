@@ -1,0 +1,18 @@
+.main {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.about {
+  margin-bottom: 59px;
+  padding-left: 44px;
+  padding-right: 240px;
+}
+
+.about-heading {
+  margin-bottom: 15px;
+}
+
+.about-description {
+  margin: 0;
+}

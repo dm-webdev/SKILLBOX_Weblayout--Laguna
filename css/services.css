@@ -1,0 +1,90 @@
+.services {
+  margin-bottom: 47px;
+}
+
+.services-heading {
+  margin-bottom: 24px;
+  padding: 0 42px;
+}
+
+.services-list {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.services-list-item:nth-child(odd) {
+  margin-right: 23px;
+}
+
+
+.services-list-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  padding: 197px 20px 32px 46px;
+  border-radius: 12px;
+  width: 49%;
+
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.service1 {
+  background-image: url('../img/service1.jpg');
+}
+
+.service2 {
+  background-image: url('../img/service2.jpg');
+}
+
+.service3 {
+  background-image: url('../img/service3.jpg');
+}
+
+.service4 {
+  background-image: url('../img/service4.jpg');
+}
+
+.service-heading {
+  position: relative;
+  display: inline;
+  padding-right: 20px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.service-heading::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  width: 15px;
+  height: 15px;
+
+  background-image: url('../img/arrow.png');
+  background-repeat: no-repeat;
+  background-position: center right;
+
+  transition: transform linear 0.3s;
+}
+
+.service-link:hover .service-heading::after {
+  transform: translateX(20px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.service-description {
+  margin: 0;
+  padding-right: 110px;
+}

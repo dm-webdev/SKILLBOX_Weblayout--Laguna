@@ -1,0 +1,36 @@
+.reserv {
+  display: flex;
+  margin-bottom: 45px;
+}
+
+.reserv-form {
+  margin-right: 48px;
+  width: 45%;
+}
+
+.reserv-form-heading {
+  padding-left: 42px;
+  margin-bottom: 27px;
+}
+
+.reserv-form-list {
+  margin-bottom: 26px;
+}
+
+.reserv-form-input {
+  padding: 25px 20px;
+  width: 99%;
+}
+
+.reserv-form-input:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.reserv-form-btn {
+  margin-right: 27px;
+  padding: 26px 10px;
+  min-width: 159px;
+
+  color: #fff;
+  background-color: #cc9933;
+}
